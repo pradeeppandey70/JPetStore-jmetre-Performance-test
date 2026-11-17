@@ -1,0 +1,21 @@
+
+# JMeter execution results
+results/*.jtl
+results/*.csv
+
+# Generated HTML reports
+reports/*
+!reports/.gitkeep
+
+# JMeter logs
+logs/*.log
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
