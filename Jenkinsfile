@@ -102,7 +102,7 @@ pipeline {
     post {
         always {
             archiveArtifacts artifacts: 'results/*.jtl, reports/**/*.html, reports/**/*.css, reports/**/*.js, reports/**/*.json, reports/**/*.png, reports/**/*.csv, logs/*.log',
-                             allowEmpty: true
+                             allowEmptyArchive: true
         }
 
         success {
